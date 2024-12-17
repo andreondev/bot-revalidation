@@ -15,10 +15,10 @@ const cliProgress = require('cli-progress');
 
 
     await page.getByPlaceholder('Usuário').click();
-    await page.getByPlaceholder('Usuário').fill('raimundoaraujo');
+    await page.getByPlaceholder('Usuário').fill('');
     await page.getByRole('button', { name: 'Próximo' }).click();
     await page.locator('#seleciona_estabelecimento').selectOption('2369370|2');
-    await page.getByPlaceholder('Senha').fill('saude652201');
+    await page.getByPlaceholder('Senha').fill('');
     await page.getByRole('button', { name: 'Entrar' }).click();
     console.log('Login bem sucedido!')
 
