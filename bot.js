@@ -11,7 +11,7 @@ const cliProgress = require('cli-progress');
 
 
     await page.goto('https://fmsteresina.gestorsolucao.net.br/');
-    console.log('Pagina aberta');
+    console.log('Pagina carregado com sucesso!');
 
 
     await page.getByPlaceholder('Usuário').click();
